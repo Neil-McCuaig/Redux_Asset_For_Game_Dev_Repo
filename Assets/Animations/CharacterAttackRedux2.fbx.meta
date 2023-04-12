@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c96f31f2e8b82a141a98b838c555ca05
+guid: 7d0fe65ce68e6ce4eb1f149ef28c777d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -14,7 +14,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 1
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -33,18 +33,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Crouch
-      takeName: Armature|ArmatureAction
-      internalID: 4781951162920444690
+      name: Attack
+      takeName: Armature|Armature|Armature|ArmatureAction
+      internalID: 6065333994261340666
       firstFrame: 0
-      lastFrame: 50
+      lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -129,7 +129,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 0
+  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
